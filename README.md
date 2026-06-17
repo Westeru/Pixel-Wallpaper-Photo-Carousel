@@ -2,6 +2,22 @@
 
 A lightweight, premium Android live wallpaper application that automatically shuffles and displays backgrounds from a custom user collection every time the device screen turns off, ensuring a fresh image is already set when the screen unlocks.
 
+*Keywords: Changing lockscreen photo, lockscreen photo shuffler, wallpaper shuffle on screen off, automated lockscreen wallpaper changer, custom photo carousel.*
+
+## Direct Download (Pre-built APK)
+If you do not want to compile the code yourself, you can download the pre-built, ready-to-install app package directly:
+- **[Download APK (Lockscreen Wallpaper Photo Carousel.apk)](Lockscreen%20Wallpaper%20Photo%20Carousel.apk)**
+
+> [!WARNING]
+> **Play Protect Warning / Blocked App warning**:
+> Because this APK is self-built and self-signed (not published on the Google Play Store), your Android phone may show a warning like **"Unsafe App Blocked"** or **"Blocked by Play Protect"** during installation.
+> 
+> **How to bypass this and install:**
+> 1. When the pop-up appears, tap **"More details"** (or the small dropdown arrow).
+> 2. Select **"Install anyway"**.
+> 
+> *The app runs completely offline, uses standard local storage permissions, and does not collect or send any user data.*
+
 ## Features
 - **Smart Background Loading**: Wallpaper changes occur on screen-off events (`ACTION_SCREEN_OFF`), ensuring the new image is fully loaded and ready before the user wakes the screen.
 - **Rendering & Resource Optimization**: 
@@ -25,7 +41,7 @@ A lightweight, premium Android live wallpaper application that automatically shu
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/wallpaper-photo-carousel.git
+   git clone https://github.com/Westeru/Pixel-Wallpaper-Photo-Carousel.git
    cd wallpaper-photo-carousel
    ```
 
@@ -48,4 +64,4 @@ A lightweight, premium Android live wallpaper application that automatically shu
    ```bash
    ./gradlew bundleRelease
    ```
-"# Pixel-Wallpaper-Photo-Carousel" 
+
