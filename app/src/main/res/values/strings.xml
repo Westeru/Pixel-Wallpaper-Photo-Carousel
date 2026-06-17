@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WallpaperPhotoCarousel</string>
+    <string name="wallpaper_name">Photo Shuffle Carousel</string>
+    <string name="wallpaper_description">Simulates the photo shuffle feature on lock screen and home screen every time you unlock your device.</string>
+</resources>
